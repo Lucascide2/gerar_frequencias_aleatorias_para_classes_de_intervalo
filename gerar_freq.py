@@ -33,7 +33,7 @@ def get_new_xi_arr(arr, quantity):
     return new_arr
 
 def get_new_frequencies(arr, quantity):
-    new_arr = get_new_xi_arr
+    new_arr = get_new_xi_arr(arr, quantity)
     return get_frequencies(new_arr)
                   
 rede_A = [2.5]*29 + [7.5] * 13 + [12.5] * 8 + [17.5] * 18 + [22.5] * 4 + [27.5] * 5 + [32.5] * 21
